@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 style="color: #552aa5">Hồ Sơ CV</h1>
+<b>Họ Và Tên:</b><p>Bùi Đức Nam</p>
+<b>Địa Chỉ:</b><p>120 Đống Đa</p>
+<b>SDT:</b><p>0999999999</p>
+<b>Email:</b><p>nambi455@gmail.com</p>
+<b>Ảnh:</b><br>
+<b>Học vấn:</b><p>12/12</p>
+<b>Bằng cấp:</b><br><p>Tốt nghiệp cấp 3</p>
+<b>Kỹ năng:</b><br>
+<ul>
+    <li>Tiếng Anh</li>
+    <li>Sử dụng được office cơ bản</li>
+    <li>...</li>
+</ul>
+<b>Kinh nghiệm:</b><p>Không có</p>
+<b>Định hướng phát triển cá nhân:</b><br>
+<a href="https://github.com/namgugi/A0223I1_BuiDucNam">Click Here</a>
+</body>
+</html>
