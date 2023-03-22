@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<form action="#" id="change">
+  <input type="number" id="divisor">
+  <input type="number" id="dividend">
+  <br>
+  <button type="button" onclick="addition()">Addition(+)</button>
+  <button type="button" onclick="subtraction()">Subtraction(-)</button>
+  <button type="button" onclick="multiplication()">Multiplication(*)</button>
+  <button type="button" onclick="division()">Division(÷)</button>
+  <br>
+  <div id="result">relust :</div>
+</form>
+
+<script>
+  function addition(){
+    let x =document.getElementById("divisor").value;
+    let y =document.getElementById("dividend").value;
+    let total= Number(x) + Number(y);
+    document.getElementById("result").innerHTML= 'Ket Qua' + total;
+  }
+  function subtraction(){
+    let x =document.getElementById("divisor").value;
+    let y =document.getElementById("dividend").value;
+    let total= Number(x) - Number(y);
+    document.getElementById("result").innerHTML= 'Ket Qua' + total;
+  }
+  function multiplication(){
+    let x =document.getElementById("divisor").value;
+    let y =document.getElementById("dividend").value;
+    let total= Number(x) * Number(y);
+    document.getElementById("result").innerHTML= 'Ket Qua' + total;
+  }
+  function division(){
+    let x =document.getElementById("divisor").value;
+    let y =document.getElementById("dividend").value;
+    let total= Number(x) / Number(y);
+    document.getElementById("result").innerHTML= 'Ket Qua' + total;
+  }
+</script>
+</body>
+</html>
